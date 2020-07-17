@@ -12,6 +12,42 @@ Understand the levels of the OSI stack and pay close attention to those first fe
 
 [ISO Stack Reference](https://www.lifewire.com/osi-model-reference-guide-816289)
 
+#### What is an OSI Stack:
+- stands for Open Systems Interconnection.
+- It is a model for how systems should connect and interact with each other. 
+- Divides internetworking into Layers
+- Layer 1:
+  * 7 Application
+  * 6 Presentation
+  * 5 Session
+- Layer 1 Explained: Handles applicaion specific reqiurements like HTTP, FTP, SSL, etc
+- Layer 2:
+  * 4 Transport (TCP/IP)
+  * 3 Network
+  * 2 Data Link
+  * 1 Physical
+  - Layer 2 explained: Handles primitive netweorking like routing, addressing, and flow control like TCP, IP, USB, bluetoooth, etc
+- Layers work from physical and up. (see number ordering, ascending)
+
+#### What is HTTP
+- Stands for Hypertext transfer Protocol
+- Works in layer one of OSI Stacks, in the application layer, after network communications are established. 
+- It facilitates the fetching of resources from servers connected to the Web. 
+- The browser (client) always initiates the http request. 
+- HTTP is stateless, but not sessionless
+- HTTP is controlled at the transport layer
+- HTTP sequencing:
+  1. Open a TCP connection.
+  2. Send HTTP message.
+  3. Read the responce sent by ther server.
+  4. Close or reuse connection.
+
+#### What are GET POST PUT and DELETE
+- GET requests retrieve data froma  server at a specified resource. It is the most common use, and does not modify data.
+- POST requests send data to the server to create or update a resource. 
+- PUT is the same as POST except it always produces the same result.
+- DELETE removes a resource at the specified URL
+
 ## TCP IP
 
 **IPv4** (32 bits) vs **IPv6** (128 bits)
