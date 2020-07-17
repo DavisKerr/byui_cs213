@@ -17,15 +17,15 @@ Understand the levels of the OSI stack and pay close attention to those first fe
 - It is a model for how systems should connect and interact with each other. 
 - Divides internetworking into Layers
 - Layer 1:
-  * 7 Application
-  * 6 Presentation
+  * 7 Application (HTTP)
+  * 6 Presentation 
   * 5 Session
 - Layer 1 Explained: Handles applicaion specific reqiurements like HTTP, FTP, SSL, etc
 - Layer 2:
-  * 4 Transport (TCP/IP)
-  * 3 Network
+  * 4 Transport (TCP)
+  * 3 Network    (IP)
   * 2 Data Link
-  * 1 Physical
+  * 1 Physical   (LAN, ethernet)
   - Layer 2 explained: Handles primitive netweorking like routing, addressing, and flow control like TCP, IP, USB, bluetoooth, etc
 - Layers work from physical and up. (see number ordering, ascending)
 
@@ -53,6 +53,20 @@ Understand the levels of the OSI stack and pay close attention to those first fe
 **IPv4** (32 bits) vs **IPv6** (128 bits)
 
 See: [IPv4 vs IPv6](https://www.juniper.net/us/en/products-services/what-is/ipv4-vs-ipv6/)
+
+#### What is TCP IP
+- TCP breaks information into packets and sends them seperately to a server. The TCP/IP then reassembles the peices in order. 
+- IP is the protocol for routing to different destinations for each packet to ensure each packet ends up at the same place.
+- TCP/IP is stateless. Each request is new, and connection si not maintained upon completion. 
+- TCP is on the transport Layer
+- IP is on the network layer
+#### IPv4 vs IPv6
+- What is IPv6:
+ - Improves address length from 32 to 128
+ - Improves routing speed.
+- What is IPv4:
+ - Older version of IPv6
+ 
 
 ## Stylesheets
 
