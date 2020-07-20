@@ -18,7 +18,7 @@ Understand the levels of the OSI stack and pay close attention to those first fe
 - Divides internetworking into Layers
 - Layer 1:
   * 7 Application (HTTP)
-  * 6 Presentation 
+  * 6 Presentation (HTML)
   * 5 Session
 - Layer 1 Explained: Handles applicaion specific reqiurements like HTTP, FTP, SSL, etc
 - Layer 2:
@@ -64,13 +64,18 @@ See: [IPv4 vs IPv6](https://www.juniper.net/us/en/products-services/what-is/ipv4
 - What is IPv6:
  - Improves address length from 32 to 128
  - Improves routing speed.
+ - 128 Bits
 - What is IPv4:
  - Older version of IPv6
+ - 32 bits
  
 
 ## Stylesheets
 
 Precedence of stylesheets (internal vs external)
+
+#### Stylesheet preference:
+ - Inline styles take precedence, then internal, and finally external. 
 
 ## Client Side
 
